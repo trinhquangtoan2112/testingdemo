@@ -43,7 +43,7 @@ namespace testing.Controllers
         [HttpPost]
         public async Task<ActionResult<IEnumerable<DemoTest>>> AddDemoTests(string Ten)
         {
-
+               
             // Lấy tất cả các bản ghi từ bảng DemoTest
             var demoTests = new DemoTest();
             demoTests.tenDemo = Ten;
